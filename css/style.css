@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+.cabecalho {
+    width: 100%;
+    height: 560px;
+    background-image: url('../img/fundo.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px;
+    margin: auto;
+}
+
+#logo{
+    margin-left: 75px;
+    margin-top: 50px;
+    
+}
+
+.cabecalho-texto {
+    margin: 50px 0px 0px 172px;
+    width: 560px;
+   
+}
+
+.cabecalho-h1 {
+    font-size: 40px;
+    color: #fff;
+}
+
+.cabecalho-p {
+    font-size: 20px;
+    color: #fff;
+    margin-top: 40px;
+}
+
+#menuinformacional {
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    height: 170px;
+    background-color: #EAECE5;
+    padding: 10px;
+}
+
+.icon {
+    padding: 25px;
+    margin: 50px 0px 50px 100px;
+}
+
+
+#secaovideo {
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+
+
+.textoinformativo {
+    display: flex;
+    align-items: center;
+}
+
+#titulovideo {
+    font-size: 40px;
+    color: #247BA0;
+    margin: 50px;
+}
+
+#paragrafovideo {
+    margin: 50px;
+}
+
+#video {
+    margin: 50px 25px 50px 100px;
+}
+
+#carrossel {
+    background-color: #247BA0;
+    padding: 50px;
+}
+
+#titulocarrossel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 25px;
+    color: #EAECE5;
+}
+
+#div-cards {
+    margin: 25px auto 0px auto;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+.card {
+    margin-left: 50px;
+}
+
+#seta-esqueda {
+    display: none;
+}
+
+#bruna {
+    display: none;
+}
+
+.seta {
+    margin-top: 35%;
+    cursor: pointer;
+}
+
+.seta:hover {
+    transform: translateY(-7px);
+    transition-duration: 0.5s;
+}
+
+.formulario {
+    text-align: center;
+
+}
+
+#titulo-formulario {
+    font-size: 25px;
+    margin: 25px;
+    color: #383838;
+}
+
+input {
+    width: 300px;
+    height: 40px;
+    margin: 15px;
+    padding: 10px;
+    border-radius: 8px;
+    border: 0px;
+    background-color: #EAECE5;
+}
+
+button {
+    width: 250px;
+    height: 40px;
+    color: #EAECE5;
+    border: 0px;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    font-weight: bold;
+    background-color: #247BA0;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #4cb7e5;
+    color: white;
+    transform: translateY(-7px);
+    transition: 0.2s ease-in-out;
+    box-shadow: 0px 15px 20px #144a62a9;
+}
